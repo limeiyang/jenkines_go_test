@@ -4,7 +4,7 @@ pipeline {
    
         stage('Deploy') {
             steps {
-                echo Deploy stage: 部署机器的名称
+                echo "我是分支1"
             }
         }
     }
